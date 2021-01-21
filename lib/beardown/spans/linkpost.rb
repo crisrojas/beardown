@@ -1,7 +1,7 @@
 module Beardown
   class Document
     START_CHAR_LINKPOST = "["
-    REGEXP_LINKPOST = /\[\[(.+)\]\]/
+    REGEXP_LINKPOST = /\[\[(.+?)\]\]/
 
     # I use this not as a X callback url Scheme
     # Instead, A url to this website used in Miyano Blog system
